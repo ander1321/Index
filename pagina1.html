@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"href="estilos.css">
+    <nav class="menu-principal">
+        <ul>
+        <li><a href="historia de tamazulapam.html">Inicio</a></li>
+        <li><a href="pagina1.html">Historia</a>
+        <ul class="submenu">
+        <li><a href="pagina1.html">Historia</a></li>
+        <li><a href="pagina1.html">Historia 2</a></li>
+        <li><a href="pagina1.html">Historia 3</a></li>
+        </ul>
+        </li>
+        <li><a href="pagina2.html">Traduccion</a>
+        <ul class="submenu">
+        <li><a href="pagina2.html">Traduccion 1</a></li>
+        <li><a href="pagina2.html">Traduccion 2</a></li>
+        <li><a href="pagina2.html">Traduccion 3</a></li>
+        </ul>
+        </li>
+        
+        </ul>
+<title>Construccion</title>
+</head>
+<body> 
+    <h1>LA IGLESIA Y SUS CAMBIOS</h1>
+<div class="contenedor">
+<div class="texto">
+   
+<p>Se construyo en el año de de 1600 aproximadament, con muros de piedra, arena y cal, mide 40 metros de largo, 10 metros de ancho y 15 metros de largo (son medidas son aproximadas).
+Segun testimonios escritos, primero su techo fue de boveda, tal vez por algun sismo se derrumbo para luego ser de zacate.
+En 1938 se techo con laminas de asbesto, que fueron traidos a espaldas de pobladores desde la ciudad de Oaxaca, siendo presidente municipal Jacinto Pedro de las Peñas, en el año de 1989 se realizo una remodelacion total, reforzando los muros con varillas y cemento, piso demosaico, techo de lamina galvanizada y las otras se retiran por estar deterioradas.
+</p>
+</div>
+
+<img id="miImagen" src="iggelsiaaaaa.jpeg"
+alt="imagen"
+width="400 px"
+height="250 px"
+alling="left">
+
+<h1></h1>
+    
+    
+    <script>
+        const imagen = document.getElementById('miImagen');
+
+        function mostrarImagen() {
+            imagen.style.display = 'block'; // Muestra la imagen
+        }
+
+        function ocultarImagen() {
+            imagen.style.display = 'none'; // Oculta la imagen
+        }
+
+        // Muestra la imagen al cargar la página
+        mostrarImagen();
+
+        // Alterna la visibilidad de la imagen cada 3 segundos
+        setInterval(() => {
+            if (imagen.style.display === 'block') {
+                ocultarImagen();
+            } else {
+                mostrarImagen();
+            }
+        }, 3000); // Cambia la imagen cada 3000 milisegundos (3 segundos)
+    </script>
+
+</body>
+</html>
+
+<style>
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.texto{
+    width:50%;
+    padding:40px;
+}
+.imagen{
+    width:50%;
+    padding:20px;
+}
+.imagen img{
+    width:100%;
+    height:auto;
+}
+</style>
+</div>
+</div>
+</body>
+
+
+</html>
